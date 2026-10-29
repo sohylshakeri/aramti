@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "titlePrefix": "Secure",
+    "titleAccent": "Technologies",
+    "titleLine2": "For A Carefree Life",
+    "subtitleLine1": "Working closely with clients to develop",
+    "subtitleLine2": "tailored solutions that drive measurable",
+    "subtitleLine3": "success."
+  },
+  "services": {
+    "titlePrefix": "Our",
+    "titleAccent": "Services",
+    "subtitle": "We offer full stack development for digital innovation",
+    "items": {
+      "ui-ux": {
+        "title": "UI/UX Design",
+        "desc": "Design experiences, not just interfaces. Our UI/UX service brings your digital products to life!"
+      },
+      "android-ios": {
+        "title": "Android & iOS",
+        "desc": "We build comprehensive Android and iOS apps that meet your complex business needs."
+      },
+      "digital-marketing": {
+        "title": "Digital Marketing",
+        "desc": "Transform your brand with our app development, enterprise CMS, and emerging tech solutions."
+      },
+      "seo": {
+        "title": "SEO",
+        "desc": "We offer excellent SEO services using proven strategies to rank your business high on search engines."
+      },
+      "enterprise-solution": {
+        "title": "Enterprise Solution",
+        "desc": "We turn your strategies into software systems that optimize your business performance."
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "desc": "We provide ongoing support to clients beyond project completion with the goal of growing together."
+      }
+    }
+  },
+  "highlights": {
+    "portfolio": {
+      "title": "Portfolio",
+      "desc": "Forecast trends and make data-driven decisions with our advanced ML models."
+    },
+    "about": {
+      "title": "About",
+      "desc": "Forecast trends and make data-driven decisions with our advanced ML models."
+    },
+    "team": {
+      "title": "Team",
+      "desc": "Forecast trends and make data-driven decisions with our advanced ML models."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "desc": "Forecast trends and make data-driven decisions with our advanced ML models."
+    },
+    "services": {
+      "title": "Services",
+      "desc": "Forecast trends and make data-driven decisions with our advanced ML models."
+    }
+  },
+  "whyUs": {
+    "titlePrefix": "Why",
+    "titleAccent": "Us?",
+    "desc": "Aramti is a software development company that specializes in providing our clients with high-quality development services."
+  },
+  "stats": {
+    "projects-delivered": "Projects Delivered",
+    "developers": "Developers",
+    "hours-worked": "Hours Worked",
+    "global-footprints": "Global Footprints"
+  },
+  "customers": {
+    "titlePrefix": "Our",
+    "titleAccent": "Customers",
+    "subtitle": "See what our customers say about us"
+  },
+  "cta": {
+    "titlePrefix": "Ready to",
+    "titleAccent": "Innovate",
+    "desc": "Contact us to schedule an in-depth discussion about your project to find out how we can fulfil your technical needs!",
+    "link": "Let's Connect "
+  },
+  "customerMap": {
+    "filters": {
+      "satisfiedCustomers": "Clients & Collaborations",
+      "customerReviews": "Customers reviews"
+    },
+    "openReview": "Open customer review",
+    "reviews": {
+      "review-1": {
+        "quote": "I am very proud of the team at Aramti. They are a smart group of people and I highly recommend them.",
+        "name": "Tilly Firth",
+        "role": "Co-founder & CEO, Impala"
+      },
+      "review-2": {
+        "quote": "Working with Aramti was a smooth experience. The team understood our goals and delivered a reliable product.",
+        "name": "Daniel Carter",
+        "role": "Product Manager, Nova"
+      },
+      "review-3": {
+        "quote": "The quality of communication and attention to detail made the entire project easier for our company.",
+        "name": "Sophia Miller",
+        "role": "Operations Director, Vertex"
+      },
+      "review-4": {
+        "quote": "Aramti created a solution that matched our requirements and supported us throughout the development process.",
+        "name": "Liam Wilson",
+        "role": "Founder, Horizon Labs"
+      }
+    }
+  }
+}

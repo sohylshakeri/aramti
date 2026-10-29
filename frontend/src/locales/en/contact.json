@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "titleLine1": "How can we",
+    "titleLine2": "help you?",
+    "subtitle": "Have questions or need assistance? Reach out to our dedicated team. We are here to help with any inquiries you may have!",
+    "backgroundWord": "CONTACT"
+  },
+  "info": {
+    "email": {
+      "label": "Email Us",
+      "value": "contact@aramti.com"
+    },
+    "phone": {
+      "label": "Call Us",
+      "value": "+98 912 123 4567"
+    },
+    "location": {
+      "label": "Our Location",
+      "value": "Hamadan, Iran"
+    }
+  },
+  "social": {
+    "twitter": "X / Twitter",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "hint": "Provide your full name and a valid email address or phone number.",
+    "namePlaceholder": "Your Name",
+    "contactPlaceholder": "Your Email Or Phone Number",
+    "wantLabel": "I want...",
+    "wantOptions": {
+      "website": "Website",
+      "mobileApp": "Mobile App",
+      "uiUxDesign": "UI/UX Design",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "security": "Security",
+      "seo": "SEO",
+      "redesign": "Redesign",
+      "aiMl": "AI / ML",
+      "other": "Other"
+      
+    },
+    "invalidContact": "Please enter a valid email or phone number.",
+    "messageLabel": "Tell us about your project, objectives, features, and any special requirements...",
+    "messagePlaceholder": "Leave a message",
+    "submit": "Send Request",
+    "submitted": "Request Sent ✓"
+  }
+}

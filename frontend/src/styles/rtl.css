@@ -1,0 +1,454 @@
+/* Persian / RTL layer
+   Applied automatically when app/i18n.jsx sets <html dir="rtl">.
+   English/LTR rules in index.css remain untouched. */
+
+[dir='rtl'] {
+  text-align: right;
+}
+
+/* ---------- Shared Persian title fragments ---------- */
+[dir='rtl'] .rtl-inline-title {
+  display: inline-flex;
+  direction: rtl;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 0.18em;
+  white-space: nowrap;
+}
+
+[dir='rtl'] .rtl-inline-title--cta,
+[dir='rtl'] .rtl-inline-title--portfolio,
+[dir='rtl'] .rtl-inline-title--about-hero {
+  gap: 0.22em;
+}
+
+/* ---------- Header ---------- */
+
+[dir='rtl'] .header__inner,
+[dir='rtl'] .nav,
+[dir='rtl'] .header__actions,
+[dir='rtl'] .language-switcher,
+[dir='rtl'] .header-auth {
+  direction: rtl;
+}
+
+[dir='rtl'] .language-switcher__option {
+  text-align: right;
+}
+
+/* ---------- Persian Header Spacing Override ----------
+   RTL only header spacing controls
+
+   nav:
+   فاصله Logo تا Navigation
+
+   header__actions:
+   فاصله Navigation تا Language Switcher
+
+   header-auth:
+   فاصله Language Switcher تا Login
+
+   header__cta:
+   فاصله Login تا Start Project Button
+------------------------------------------------------ */
+
+[dir='rtl'] {
+  --fa-header-logo-nav-gap: 100px;
+  --fa-header-nav-language-gap: 100px;
+  --fa-header-language-login-gap: 15px;
+  --fa-header-login-cta-gap: 30px;
+  --fa-header-logo-edge-gap: 30px;
+  --fa-header-cta-edge-gap: 30px;
+}
+
+[dir='rtl'] .header__inner {
+  padding-inline-start: var(--fa-header-cta-edge-gap);
+  padding-inline-end: var(--fa-header-logo-edge-gap);
+}
+
+[dir='rtl'] .nav {
+  margin-inline-start: var(--fa-header-logo-nav-gap);
+}
+
+
+[dir='rtl'] .header__actions {
+  margin-inline-start: var(--fa-header-nav-language-gap);
+}
+
+
+[dir='rtl'] .header-auth {
+  margin-inline-start: var(--fa-header-language-login-gap);
+}
+
+
+[dir='rtl'] .header__cta {
+  margin-inline-start: var(--fa-header-login-cta-gap);
+}
+/* ---------- Home: Hero ---------- */
+[dir='rtl'] .hero__grid {
+  direction: rtl;
+}
+
+[dir='rtl'] .hero__title,
+[dir='rtl'] .hero__subtitle {
+  text-align: right;
+}
+
+[dir='rtl'] .hero__title {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* ---------- Home: Services ---------- */
+[dir='rtl'] .services-grid {
+  direction: rtl;
+}
+
+[dir='rtl'] .service-card {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Icon / arrow positions are visual assets and should stay exactly like LTR. */
+[dir='rtl'] .service-card__top {
+  direction: ltr;
+  flex-direction: row;
+}
+
+[dir='rtl'] .service-card h3,
+[dir='rtl'] .service-card p {
+  text-align: right;
+}
+
+[dir='rtl'] .service-card h3 {
+  line-height: 1.45;
+}
+
+[dir='rtl'] .service-card p {
+  line-height: 1.8;
+}
+
+/* ---------- Home: Highlights ---------- */
+/* Keep the scroll rail LTR because its JS uses positive scrollLeft values. */
+[dir='rtl'] .highlights-scroll,
+[dir='rtl'] .highlights-track {
+  direction: ltr;
+}
+
+[dir='rtl'] .highlight-card,
+[dir='rtl'] .highlight-card__content {
+  direction: rtl;
+}
+
+[dir='rtl'] .highlight-card__content h3 {
+  line-height: 1.45;
+}
+
+[dir='rtl'] .highlight-card__content p {
+  line-height: 1.85;
+}
+
+/* ---------- Home: Why us / stats ---------- */
+[dir='rtl'] .why-us {
+  direction: rtl;
+}
+
+[dir='rtl'] .why-us__head,
+[dir='rtl'] .why-us__desc {
+  text-align: right;
+}
+
+[dir='rtl'] .why-us__stats {
+  direction: rtl;
+}
+
+/* Number stays on the left of the Persian label, matching the desktop design. */
+[dir='rtl'] .stat {
+  direction: ltr;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+[dir='rtl'] .stat__number,
+[dir='rtl'] .stat__plus {
+  direction: ltr;
+}
+
+[dir='rtl'] .stat__label {
+  direction: rtl;
+  text-align: right;
+  margin-left: 0;
+}
+
+/* ---------- Home: Customer map ---------- */
+[dir='rtl'] .customer-map-filters {
+  direction: rtl;
+}
+
+[dir='rtl'] .customer-review-card {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .customer-review-card__person {
+  direction: rtl;
+}
+
+[dir='rtl'] .customer-review-card--map {
+  transform: translate(calc(-100% - 22px), -50%);
+}
+
+/* ---------- Home: CTA ---------- */
+[dir='rtl'] .cta-band__inner {
+  direction: rtl;
+}
+
+[dir='rtl'] .cta-band__content,
+[dir='rtl'] .cta-band__inner p {
+  text-align: right;
+}
+
+[dir='rtl'] .cta-band__button {
+  direction: rtl;
+}
+
+[dir='rtl'] .cta-band__button-icon {
+  transform: rotate(180deg);
+}
+
+/* ---------- Shared page hero ---------- */
+[dir='rtl'] .page-hero__content {
+  direction: rtl;
+}
+
+/* ---------- About ---------- */
+[dir='rtl'] .about-hero .about-hero__eyebrow {
+  direction: rtl;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* First row: illustration left, Persian copy right. */
+[dir='rtl'] .achievement-item:not(.achievement-item--reverse) {
+  direction: ltr;
+  grid-template-columns: 400px 760px;
+}
+
+[dir='rtl'] .achievement-item:not(.achievement-item--reverse) .achievement-item__content {
+  grid-column: 2;
+  justify-self: stretch;
+  text-align: right;
+}
+
+[dir='rtl'] .achievement-item:not(.achievement-item--reverse) .achievement-item__visual {
+  grid-column: 1;
+  justify-self: start;
+  justify-content: flex-start;
+  /*padding-right: 0;
+  padding-left: 20px;*/
+}
+
+/* Second row: Persian copy left, illustration right. */
+[dir='rtl'] .achievement-item--reverse {
+  direction: ltr;
+  grid-template-columns: 760px 400px;
+}
+
+[dir='rtl'] .achievement-item--reverse .achievement-item__content {
+  grid-column: 1;
+  justify-self: stretch;
+  text-align: right;
+}
+
+[dir='rtl'] .achievement-item--reverse .achievement-item__visual {
+  grid-column: 2;
+  justify-self: end;
+  justify-content: flex-end;
+  /*padding-left: 0;
+  padding-right: 20px;*/
+}
+
+[dir='rtl'] .achievement-item__title {
+  text-align: right;
+  text-transform: none;
+  line-height: 1.35;
+}
+
+[dir='rtl'] .achievement-item__description {
+  direction: rtl;
+  text-align: right;
+  line-height: 1.9;
+}
+
+[dir='rtl'] .achievement-item--reverse .achievement-item__title {
+  white-space: normal;
+}
+
+[dir='rtl'] .years-section__title {
+  direction: rtl;
+  text-align: center;
+}
+
+[dir='rtl'] .years-section__title-line:last-child {
+  display: flex;
+  direction: rtl;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.2em;
+}
+
+/* Keep timeline geometry physical; only its copy is RTL. */
+[dir='rtl'] .timeline {
+  direction: ltr;
+}
+
+[dir='rtl'] .timeline__content,
+[dir='rtl'] .timeline__content h3,
+[dir='rtl'] .timeline__content p {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .timeline__year {
+  direction: ltr;
+}
+
+[dir='rtl'] .team-slider,
+[dir='rtl'] .team-slider__track {
+  direction: ltr;
+}
+
+[dir='rtl'] .team-card {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .team-card strong {
+  text-transform: none;
+}
+
+/* ---------- Portfolio ---------- */
+[dir='rtl'] .portfolio-hero__title {
+  direction: rtl;
+  text-align: center;
+}
+
+[dir='rtl'] .portfolio-filters {
+  direction: rtl;
+}
+
+[dir='rtl'] .portfolio-grid {
+  direction: rtl;
+}
+
+[dir='rtl'] .portfolio-card {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .portfolio-card__title,
+[dir='rtl'] .portfolio-card__description {
+  text-align: right;
+}
+
+[dir='rtl'] .portfolio-card__description {
+  line-height: 1.8;
+}
+
+[dir='rtl'] .portfolio-card__tags {
+  direction: rtl;
+  justify-content: flex-start;
+}
+
+/* ---------- Contact ---------- */
+[dir='rtl'] .contact-grid {
+  direction: rtl;
+}
+
+[dir='rtl'] .contact-info,
+[dir='rtl'] .contact-form {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .contact-info .page-hero__title,
+[dir='rtl'] .contact-info__subtitle {
+  text-align: right;
+}
+
+[dir='rtl'] .info-card {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .contact-form__row,
+[dir='rtl'] .contact-form__options,
+[dir='rtl'] .contact-form__options-row {
+  direction: rtl;
+}
+
+[dir='rtl'] .contact-form input,
+[dir='rtl'] .contact-form textarea {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .contact-form__title,
+[dir='rtl'] .contact-form__hint,
+[dir='rtl'] .contact-form__label,
+[dir='rtl'] .contact-form__message-label {
+  text-align: right;
+}
+
+/* ---------- Auth ---------- */
+[dir='rtl'] .auth-field__input,
+[dir='rtl'] .auth-verification-field input {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .auth-form {
+  direction: rtl;
+}
+
+[dir='rtl'] .auth-form__label {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir='rtl'] .auth-form__title,
+[dir='rtl'] .auth-socials,
+[dir='rtl'] .auth-switch-link,
+[dir='rtl'] .auth-forgot__description {
+  text-align: center;
+}
+
+[dir='rtl'] .auth-login-tabs,
+[dir='rtl'] .auth-remember {
+  direction: rtl;
+}
+
+[dir='rtl'] .auth-form__forgot {
+  margin-inline-start: 0;
+  margin-inline-end: auto;
+}
+
+[dir='rtl'] .auth-forgot__back span[aria-hidden='true'] {
+  transform: rotate(180deg);
+}
+
+/* ---------- Footer ---------- */
+[dir='rtl'] .footer__top,
+[dir='rtl'] .footer__nav,
+[dir='rtl'] .footer__socials,
+[dir='rtl'] .footer__meta,
+[dir='rtl'] .footer__contact-list,
+[dir='rtl'] .footer__legal {
+  direction: rtl;
+}
+
+[dir='rtl'] .footer__legal {
+  margin-inline-start: 0;
+  margin-inline-end: auto;
+}

@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "titleBefore": "Take a",
+    "titleAccent": "look",
+    "titleAfter": "at some of our recent case studies",
+    "backgroundWord": "PORTFOLIO"
+  },
+  "filters": {
+    "all": "All",
+    "website": "Website",
+    "mobileApp": "Mobile App",
+    "uiUxDesign": "UI/UX Design",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "security": "Security",
+    "seo": "SEO",
+    "redesign": "Redesign",
+    "aiMl": "AI / ML"
+  },
+  "tags": {
+    "design": "Design",
+    "mobileApp": "Mobile App",
+    "website": "Website"
+  },
+  "projects": {
+    "app-development": {
+      "title": "App Development",
+      "desc": "Fitness and Health Mobile App portfolio sample, built for daily activity and sleep tracking."
+    },
+    "web-platform-launch": {
+      "title": "Web Platform Launch",
+      "desc": "A landing page crafted to showcase a client project with clarity and a strong call to action."
+    },
+    "digital-services-ui": {
+      "title": "Digital Services UI",
+      "desc": "A digital services website design focused on quality, speed, and a friendly visual voice."
+    },
+    "wellness-app": {
+      "title": "Wellness App",
+      "desc": "Fitness and Health Mobile App portfolio sample, built for daily activity and sleep tracking."
+    },
+    "showcase-site": {
+      "title": "Showcase Site",
+      "desc": "A landing page crafted to showcase a client project with clarity and a strong call to action."
+    },
+    "service-marketplace": {
+      "title": "Service Marketplace",
+      "desc": "A digital services website design focused on quality, speed, and a friendly visual voice."
+    }
+  }
+}

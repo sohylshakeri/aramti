@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "projects": "Projects",
+    "services": "Services",
+    "ariaLabel": "Main navigation"
+  },
+  "header": {
+    "cta": "Start a Project",
+    "login": "Login",
+    "exit": "Exit"
+  },
+  "footer": {
+    "social": {
+      "twitter": "X / Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "email": "Aramti.Company@gmail.com",
+    "phone": "+989185003069",
+    "location": "Iran, Hamadan,saidiyeh",
+    "legal": "Legal links",
+    "copyright": "© 2026 Aramti. All rights reserved."
+  },
+  "language": {
+    "toggleToFarsi": "فا",
+    "toggleToEnglish": "EN",
+    "toggleLabel": "Change language",
+    "menuLabel": "Change language",
+    "codes": {
+      "en": "EN",
+      "fa": "FA"
+    },
+    "names": {
+      "en": "English",
+      "fa": "فارسی"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "eyebrow": "A Brief Look",
+    "titleLine1": "A  BRIEF LOOK ",
+    "titleLine2": "THE ACHIEVEMENT",
+    "description": "At Aramti, we are a creative digital technology agency that specializes in crafting captivating brand experiences. With our passion for innovation and expertise in the digital realm, we help businesses like yours reach new heights. Our team of talented strategists, designers, and developers is dedicated to delivering exceptional results that exceed expectations.",
+    "backgroundWord": "ABOUT"
+  },
+  "achievements": {
+    "second": {
+      "title": "OUR EDGE: IDEA TO PRODUCT",
+      "description": "By combining creativity, cutting-edge technologies, and a deep understanding of user needs, we transform raw ideas into powerful, functional digital products. Every project is an opportunity for us to create a different, modern, and valuable experience; products that are not only beautiful, but also functional and simple for users."
+    }
+  },
+  "journey": {
+    "titlePrefix": "Years",
+    "titleAccent": "Of Journey"
+  },
+  "years": {
+    "heading": {
+      "line1": "YEARS",
+      "accent": "OF",
+      "line2": "JOURNEY"
+    }
+  },
+  "timeline": {
+    "launch": {
+      "title": "Company Launch",
+      "desc": "Established Aramti, the creative digital technology agency, with a vision to provide innovative solutions to clients."
+    },
+    "expansion": {
+      "title": "Expansion of Services",
+      "desc": "Expanded service offerings to include web design and development, growing our capabilities and digital solutions."
+    },
+    "international": {
+      "title": "International Expansion",
+      "desc": "Expanded our reach beyond local markets by serving international clients and establishing a global presence for Aramti."
+    }
+  },
+  "team": {
+    "titlePrefix": "Our",
+    "titleAccent": "Team",
+    "members": {
+      "amir-1": {
+        "name": "Amir",
+        "role": "Developer"
+      },
+      "matin": {
+        "name": "Matin",
+        "role": "Flutter Developer"
+      },
+      "hadi": {
+        "name": "Hadi",
+        "role": "Designer"
+      },
+      "amir-2": {
+        "name": "Amir",
+        "role": "Developer"
+      }
+    }
+  }
+}

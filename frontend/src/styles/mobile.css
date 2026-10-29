@@ -1,0 +1,12 @@
+/* Mobile layout overrides go here once the mobile Figma design is
+   implemented — following the same "thin override layer" pattern as
+   rtl.css: the desktop components/markup stay the same, only chosen
+   layout rules are overridden inside a media query, e.g.:
+   
+   @media (max-width: 767px) {
+     .services-grid { grid-template-columns: 1fr; }
+   }
+   
+   Intentionally empty for now — the site is desktop-only at this
+   stage, and ScaleWrapper already handles scaling the fixed 1440px
+   desktop layout down for narrower viewports. */

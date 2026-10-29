@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "خانه",
+    "contact": "تماس با ما",
+    "about": "درباره ما",
+    "portfolio": "نمونه‌کارها",
+    "projects": "پروژه‌ها",
+    "services": "خدمات",
+    "ariaLabel": "ناوبری اصلی"
+  },
+  "header": {
+    "cta": "شروع پروژه",
+    "login": "ورود",
+    "exit": "خروج"
+  },
+  "footer": {
+    "social": {
+      "twitter": "ایکس / توییتر",
+      "linkedin": "لینکدین",
+      "instagram": "اینستاگرام"
+    },
+    "email": "Aramti.Company@gmail.com",
+    "phone": "+989185003069",
+    "location": "ایران، همدان،سعیدیه ",
+    "copyright": "© ۲۰۲۶ آرامتی. تمام حقوق محفوظ است.",
+    "legal": "لینک‌های حقوقی"
+  },
+  "language": {
+    "toggleToFarsi": "فا",
+    "toggleToEnglish": "EN",
+    "toggleLabel": "تغییر زبان",
+    "menuLabel": "تغییر زبان",
+    "codes": {
+      "en": "EN",
+      "fa": "FA"
+    },
+    "names": {
+      "en": "English",
+      "fa": "فارسی"
+    }
+  }
+}
